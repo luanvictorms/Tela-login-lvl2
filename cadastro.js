@@ -97,7 +97,7 @@ function cadastrar(){
         msgError.setAttribute('style', 'display: none')
 
         setTimeout(()=> {
-            window.location.href = 'http://127.0.0.1:5500/Login4/index.html'
+            window.location.href = 'https://luanvictorms.github.io/Tela-login-lvl2/index.html'
         }, 3000)
         
     } else {
