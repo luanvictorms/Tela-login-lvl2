@@ -40,7 +40,7 @@ function entrar(){
     })
 
     if(usuario.value == userValid.user && senha.value == userValid.senha && usuario.value !='' && senha.value !=''){
-        window.location.href = 'http://127.0.0.1:5500/Login4/boasvindas.html'
+        window.location.href = 'https://luanvictorms.github.io/Tela-login-lvl2/boasvindas.html'
 
         let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
         localStorage.setItem('token', token)
